@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        recyclerbtn = findViewById(R.id.recyclerviewbtn)
+        recyclerbtn = findViewById(R.id.loginbtn)
 
         recyclerbtn.setOnClickListener {
 
